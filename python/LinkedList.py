@@ -52,17 +52,5 @@ class LinkedList:
 
             bfnode.next=tnode.next
             print(bfnode,bfnode.next,i)
-
-            
+ 
     
-
-l=LinkedList()
-l.append("kim")
-l.append("hyung")
-l.append("keun")
-l.append("!!!")
-l.printlist(l.head,0)
-aa=l.search(l.head,"keun",0)
-print(aa)
-l.delete(l.head,4)       
-l.printlist(l.head,0)
